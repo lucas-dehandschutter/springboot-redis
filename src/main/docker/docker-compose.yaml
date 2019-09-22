@@ -5,13 +5,19 @@ services:
     image: lucasde/springboot-redis:1.0
     ports:
       - 8080:8080
+    networks:
+      - redis-network
 
   redis:
     hostname: redis
     image: redis:5.0.5
     volumes:
       - redis-volume:/data
+    networks:
+      - redis-network
 
 volumes:
   redis-volume:
 
+networks:
+  redis-network:

@@ -4,11 +4,14 @@ services:
     hostname: restapi
     image: lucasde/springboot-redis:1.0
     ports:
-      - 8080-8082:8080
+      - 8080:8080
 
   redis:
     hostname: redis
     image: redis:5.0.5
+    volumes:
+      - redis-volume:/data
 
-
+volumes:
+  redis-volume:
 

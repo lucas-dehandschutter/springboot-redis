@@ -1,0 +1,6 @@
+/Users/lucas/git/springboot-redis/src/main/java/org/lucas/springbootredis/service/StudentService.java
+/Users/lucas/git/springboot-redis/src/main/java/org/lucas/springbootredis/configuration/RedisConfig.java
+/Users/lucas/git/springboot-redis/src/main/java/org/lucas/springbootredis/SpringbootRedisApplication.java
+/Users/lucas/git/springboot-redis/src/main/java/org/lucas/springbootredis/repository/StudentRepository.java
+/Users/lucas/git/springboot-redis/src/main/java/org/lucas/springbootredis/Controller/StudentController.java
+/Users/lucas/git/springboot-redis/src/main/java/org/lucas/springbootredis/entity/Student.java

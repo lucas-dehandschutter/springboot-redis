@@ -1,0 +1,7 @@
+org/lucas/springbootredis/configuration/RedisConfig.class
+org/lucas/springbootredis/Controller/StudentController.class
+org/lucas/springbootredis/SpringbootRedisApplication.class
+org/lucas/springbootredis/repository/StudentRepository.class
+org/lucas/springbootredis/entity/Student.class
+org/lucas/springbootredis/entity/Student$Gender.class
+org/lucas/springbootredis/service/StudentService.class
